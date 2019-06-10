@@ -5,13 +5,13 @@ import smtplib
 # tb = telnetlib.Telnet(HOST, "587")
 # print (tb.read_all())
 
-gmail_user = 'afshinshah77@gmail.com'
-gmail_password = 'invincible98@'
+gmail_user = 'email address'
+gmail_password = 'password'
 
 sent_from = gmail_user
-to = ['ali.goldani97@gmail.com']
+to = ['reciver email']
 subject = 'smtp-test1'
-body = 'hi Ali'
+body = 'body of email'
 
 email_text = """  
 From: %s  
