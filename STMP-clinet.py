@@ -27,5 +27,5 @@ try:
     server.login(gmail_user, gmail_password)
     server.sendmail(sent_from, to, email_text)
     server.close()
-except:
+except ConnectionError:
     print("something went wrong\n")
